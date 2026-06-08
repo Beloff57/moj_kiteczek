@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для моей любимочки❤️</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="site-hidden">
+
+    <div id="background-hearts"></div>
+
+    <div id="welcomeModal" class="welcome-modal">
+
+    <div class="welcome-card">
+
+        <img src="images/kiteczki.jpg"
+             alt="Милая картинка"
+             class="welcome-image">
+
+        <h2>Любимая ❤️</h2>
+
+        <p>
+            Ты готова посмотреть нашу милоту,
+            воспоминания и немного заглянуть
+            в наше прекрасное будущее?
+        </p>
+
+        <button id="enterBtn"
+        class="enter-btn"
+        onclick="enterSite()">
+    Посмотреть!!! 💕
+</button>
+
+    </div>
+
+</div>
+    <header>
+            <button class="nav-btn active" onclick="showSection('home', this)">❤️Главная</button>
+            <button class="nav-btn" onclick="showSection('future', this)">💕Будущее</button>
+            <button class="nav-btn" onclick="showSection('letter', this)">💌Письмо</button>
+            <button class="nav-btn" onclick="showSection('love', this)">🌹Что я люблю в тебе</button>
+            <button class="nav-btn" onclick="showSection('timer', this)">⏳Таймер любви</button>
+    </header>
+    <main>
+
+    <section id="home" class="section active">
+    <h1>Для моей любимой❤️</h1>
+
+    <div class="memory-row">
+        <img src="images/1.jpg"
+             class="memory-photo"
+             onclick="toggleText(this)">
+
+        <div class="memory-text">
+            А это наша первая фотокарточка, которая по-настоящему носит титул легендарочки, тот самый день, моя девочка, когда судьба решила пересечь наши пути и свести их воедино, когда мы встретились, и с того самого момента началась наша история, полная любви, счастья и веселья
+        </div>
+    </div>
+
+    <div class="memory-row reverse">
+        <img src="images/2.jpg"
+             class="memory-photo"
+             onclick="toggleText(this)">
+
+        <div class="memory-text">
+            А это наша первая фотосессия, с легендарным Флешем, помню и вспоминаю каждый день те наши первые прогулки, наши милые, веселые и теплые моменты, наше начало с нежностью на сердце и с той же огромной силой вновь переношусь в то время, с невероятной силой и желанием создавать бесконечное множество таких моментов
+        </div>
+    </div>
+
+    <div class="memory-row">
+        <img src="images/3.jpg"
+             class="memory-photo"
+             onclick="toggleText(this)">
+
+        <div class="memory-text">
+            Хоть и на следующий день после данной фотокарточки началась армия, атмосфера, вайб и те моменты не ослабли ни на каплю, а наоборот, были максимально насыщены теплотой и нежностью, что мы создавали и делали это от чистого сердца, блатнявая фоточка с прекрасной историей и мы уже прекрасно знали и понимали, чего хотим и ради чего мы вместе начали наш путь, путь нашей семьи
+        </div>
+    </div>
+
+</section>
+
+    <section id="future" class="section">
+
+    <h1>О нашем будущем💕</h1>
+
+    <div class="future-container">
+
+        <div class="future-card">
+            <div class="future-icon">🏡</div>
+            <h2>Наш дом</h2>
+            <p>
+                Уютное место, наполненное любовью, смехом и теплом.
+                Дом, куда всегда хочется возвращаться, потому что там будем мы.
+            </p>
+        </div>
+
+        <div class="future-card">
+            <div class="future-icon">✈️</div>
+            <h2>Путешествия</h2>
+            <p>
+                Новые города, красивые закаты, тысячи фотографий и воспоминаний.
+                Главное — держать тебя за руку в каждом новом месте.
+            </p>
+        </div>
+
+        <div class="future-card">
+            <div class="future-icon">💍</div>
+            <h2>Вместе навсегда</h2>
+            <p>
+                Проходить через всё вместе, поддерживать друг друга и каждый день
+                выбирать именно нас. Сегодня, завтра и спустя много лет.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="letter" class="section">
+
+    <h1>Письмо для тебя 💌</h1>
+
+    <div class="envelope-container">
+
+        <div class="envelope" onclick="openLetter()">
+            💌
+        </div>
+
+        <p class="envelope-text">
+            Нажми на конверт ❤️
+        </p>
+
+    </div>
+
+    <div id="letterPaper" class="letter-paper">
+
+        <h2>Моему любименькому рыженькому Котёночку❤️❤️❤️</h2>
+
+        <p>
+
+Иногда мне кажется, что обычных слов просто недостаточно, чтобы описать то, насколько сильно изменилась моя жизнь после нашей встречи.</br>
+
+До тебя дни просто шли один за другим. Но именно ты сделала мою жизнь по-настоящему живой, наполненной смыслом, теплом и счастьем. Каждый день рядом с тобой становится особенным, потому что в нем есть ты — человек, которого я люблю всем сердцем.</br>
+
+Ты стала не просто частью моей жизни. Ты стала моим домом, моим спокойствием, моей радостью и моим будущим. Рядом с тобой хочется становиться лучше, сильнее и делать всё возможное, чтобы видеть твою улыбку как можно чаще.</br>
+
+Я бесконечно благодарен судьбе за тот день, когда наши пути пересеклись. За каждое сообщение, каждый звонок, каждую встречу, каждое объятие и каждое воспоминание, которое мы создали вместе.</br>
+
+И знаешь, что удивительно? С каждым днем моя любовь к тебе становится только больше. Казалось бы, сильнее уже невозможно, но потом проходит еще один день рядом с тобой, и я понимаю, что люблю тебя еще сильнее, чем вчера.</br>
+
+Спасибо тебе за то, что ты есть. Спасибо за твою заботу, нежность, поддержку и любовь. Ты делаешь мой мир ярче, а меня — счастливее. Знай, моя девочка, что это только начало, дальше - только полный вперед, ведь то ли еще будет!</br>
+
+Я тебя очень сильно люблю, люблю всем сердцем, Котёночек мой любименький рыженький, спасибо тебе огромное за то, что ты у меня есть❤️❤️❤️
+
+        </p>
+
+    </div>
+
+</section>
+
+<section id="love" class="section">
+
+    <h1>Что я люблю в тебе ❤️</h1>
+
+    <div class="love-grid">
+
+        <div class="love-card" onclick="toggleLove(this)">
+            <div class="love-title">
+                😊 Твоя улыбка
+            </div>
+
+            <div class="love-content">
+                Твоя улыбка способна сделать мой день
+                лучше даже в самый тяжелый момент.
+            </div>
+        </div>
+
+        <div class="love-card" onclick="toggleLove(this)">
+            <div class="love-title">
+                🥰 Твоя забота
+            </div>
+
+            <div class="love-content">
+                Ты всегда умеешь поддержать,
+                согреть и подарить чувство спокойствия.
+            </div>
+        </div>
+
+        <div class="love-card" onclick="toggleLove(this)">
+            <div class="love-title">
+                👀 Твои глаза
+            </div>
+
+            <div class="love-content">
+                Я готов смотреть в них бесконечно.
+            </div>
+        </div>
+
+        <div class="love-card" onclick="toggleLove(this)">
+            <div class="love-title">
+                ❤️ Наши разговоры
+            </div>
+
+            <div class="love-content">
+                С тобой интересно всегда,
+                даже если мы обсуждаем мелочи.
+            </div>
+        </div>
+
+        <div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        🌞 Твой голос
+    </div>
+
+    <div class="love-content">
+        Даже самый обычный день становится лучше,
+        когда я слышу твой голос.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        🤗 Твои объятия
+    </div>
+
+    <div class="love-content">
+        В твоих объятиях спокойно, уютно и по-настоящему хорошо.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        😂 Твой смех
+    </div>
+
+    <div class="love-content">
+        Твой смех — один из самых приятных звуков,
+        которые я когда-либо слышал.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        🌸 Твою нежность
+    </div>
+
+    <div class="love-content">
+        Ты умеешь делать мир вокруг теплее
+        одной своей заботой и лаской.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        💪 Твою силу
+    </div>
+
+    <div class="love-content">
+        Я восхищаюсь тем, как ты справляешься
+        с трудностями и не сдаешься.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        ✨ Твою искренность
+    </div>
+
+    <div class="love-content">
+        Рядом с тобой никогда не нужно притворяться.
+        Ты настоящая, и это бесценно.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        💕 Наши прогулки
+    </div>
+
+    <div class="love-content">
+        Неважно куда мы идем,
+        главное — что мы идем вместе.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        🌙 Наши вечера
+    </div>
+
+    <div class="love-content">
+        Самые обычные вечера становятся особенными,
+        если я провожу их с тобой.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        💞 Твою поддержку
+    </div>
+
+    <div class="love-content">
+        Благодаря тебе я чувствую,
+        что способен справиться с чем угодно.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        🏡 Чувство дома
+    </div>
+
+    <div class="love-content">
+        Рядом с тобой я чувствую себя дома,
+        где бы мы ни находились.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        💖 То, какая ты
+    </div>
+
+    <div class="love-content">
+        Я люблю тебя не за что-то одно,
+        а за всё, что делает тебя именно тобой.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        ♾️ Нас
+    </div>
+
+    <div class="love-content">
+        Больше всего я люблю то,
+        что в этом мире есть мы.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        😏 Твои гарцовки
+    </div>
+
+    <div class="love-content">
+        Я безумно сильно обожаю то, 
+        как ты гарцуешь, моя кошечка любимая.
+    </div>
+</div>
+
+<div class="love-card" onclick="toggleLove(this)">
+    <div class="love-title">
+        🤨 Это самое движение бровушкой
+    </div>
+
+    <div class="love-content">
+        Как же я это просто невероятно сильно и обожаю, моя киса, я просто балдею.
+    </div>
+</div>
+
+    </div>
+
+</section>
+
+<section id="timer" class="section">
+
+    <h1>Наша история любви ❤️</h1>
+
+    <div class="love-timer">
+
+        <div id="days">0</div>
+        <span>дней</span>
+
+        <div id="hours">0</div>
+        <span>часов</span>
+
+        <div id="minutes">0</div>
+        <span>минут</span>
+
+        <div id="seconds">0</div>
+        <span>секунд</span>
+
+    </div>
+
+    <p class="timer-message">
+    ❤️И каждая секунда рядом с тобой делает меня счастливее.
+</p>
+
+</section>
+</main>
+
+<footer>
+
+    <p>
+        Сделано с любовью специально для моей самой лучшей девочки❤️
+    </p>
+
+    <span>
+        © Навсегда твой любимый, твой Лесик❤️
+    </span>
+
+</footer>
+
+
+    <script>
+function showSection(id, button){
+
+    document.querySelectorAll('.section')
+        .forEach(section => section.classList.remove('active'));
+
+    document.querySelectorAll('.nav-btn')
+        .forEach(btn => btn.classList.remove('active'));
+
+    document.getElementById(id)
+        .classList.add('active');
+
+    button.classList.add('active');
+}
+
+function toggleText(photo){
+
+    const text =
+        photo.parentElement.querySelector('.memory-text');
+
+    text.classList.toggle('show');
+}
+
+function openLetter(){
+
+    document.querySelector('.envelope-container').style.display = 'none';
+
+    document.getElementById('letterPaper').style.display = 'block';
+}
+
+function enterSite(){
+
+    const btn =
+        document.getElementById('enterBtn');
+
+    btn.disabled = true;
+
+    btn.innerHTML =
+        'Загружаем любовь... ❤️';
+
+    createHearts();
+
+    setTimeout(() => {
+
+        const modal =
+            document.getElementById('welcomeModal');
+
+        modal.style.opacity = "0";
+
+        document.body
+            .classList
+            .remove('site-hidden');
+
+        setTimeout(() => {
+
+            modal.style.display = "none";
+
+        }, 800);
+
+    }, 2000);
+}
+
+function createHearts(){
+
+    const container =
+        document.getElementById('hearts-container');
+
+    const hearts = [
+        '❤️',
+        '💖',
+        '💕',
+        '💗',
+        '💞'
+    ];
+
+    for(let i = 0; i < 40; i++){
+
+        const heart =
+            document.createElement('div');
+
+        heart.className =
+            'flying-heart';
+
+        heart.innerHTML =
+            hearts[Math.floor(
+                Math.random() * hearts.length
+            )];
+
+        heart.style.left =
+            Math.random() * 100 + 'vw';
+
+        heart.style.bottom =
+            Math.random() * 30 + 'vh';
+
+        heart.style.animationDuration =
+            (1.5 + Math.random()) + 's';
+
+        container.appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 2500);
+    }
+}
+
+function toggleLove(card){
+
+    card.classList.toggle('open');
+
+}
+
+const startDate =
+new Date("2024-06-28 23:39:00");
+
+function updateLoveTimer(){
+
+    const now = new Date();
+
+    const diff = now - startDate;
+
+    const days =
+        Math.floor(diff / (1000*60*60*24));
+
+    const hours =
+        Math.floor(
+            diff / (1000*60*60)
+        ) % 24;
+
+    const minutes =
+        Math.floor(
+            diff / (1000*60)
+        ) % 60;
+
+    const seconds =
+        Math.floor(
+            diff / 1000
+        ) % 60;
+
+    document.getElementById('days').innerText =
+        days;
+
+    document.getElementById('hours').innerText =
+        hours;
+
+    document.getElementById('minutes').innerText =
+        minutes;
+
+    document.getElementById('seconds').innerText =
+        seconds;
+}
+
+setInterval(updateLoveTimer, 1000);
+
+updateLoveTimer();
+
+setInterval(() => {
+
+    const heart =
+        document.createElement("div");
+
+    heart.className = "bg-heart";
+
+    heart.innerHTML = "❤️";
+
+    heart.style.left =
+        Math.random() * 100 + "vw";
+
+    heart.style.animationDuration =
+        (12 + Math.random() * 8) + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+
+        heart.remove();
+
+    }, 20000);
+
+}, 2000);
+</script>
+
+
+<div id="hearts-container"></div>
+</body>
+</html>
